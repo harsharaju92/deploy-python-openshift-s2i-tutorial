@@ -14,7 +14,7 @@ app = Flask(__name__)    # Construct an instance of Flask class for our webapp
 @app.route('/')   # URL '/' to be handled by main() route handler
 def main():
     """Say hello"""
-    return 'Hello, This is Amazing new world! Walteru veerayya.movie is running sucesfully'
+    return 'Hello, This is Amazing new world! Walteru veerayya.movie is running sucesfully.Movie released for sankrathi 2023'
 
 if __name__ == '__main__':  # Script executed directly?
     print("Hello, World. Uses S2I to build the application.")
